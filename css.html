@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 class="FTC">Frontend Tutorials</h1>
+
+    <nav class="cssnav">
+        <a href="./index.html">Adobe Xd</a> &bull;
+        <a href="./html.html">HTML5</a> &bull;
+        <a class="active" href="./css.html">CSS</a> &bull;
+        <a href="./javascript.html">Javascript</a>
+    </nav>
+    <div class="main-content">
+        <img class="img" src="./Images/css.png" alt="css">
+
+        <h1 class="anna">CSS - Tutorial</h1>
+        <h2>Cascading Stylee Sheet</h2>
+
+        <p>
+            På den här sidan kommer vi gå igenom lite grunder i CSS och vad man kan göra.
+            Det är ett språk som ändrar utseende på en webbsida skriven i ett markup språk t.ex HTML. Nedan kan du lära
+            dig hur man ändrar
+            färg, byter placering på något, ändrar form på ett objekt etc.
+
+        </p>
+
+<hr>
+        <section class="subject">
+            <div class="explanation">
+                <h2>Ändra bakgrundsfärg</h2>
+                <p>Med CSS kan man ändra färger på backgrunden. Testa att trycka på knapparna nedan för att ändra
+                    backgrundsfärgen på rutan nedan.</p>
+
+            </div>
+            <hr>
+            <div class="code">
+                <p>
+                    div{
+                    background-color: <span id="codeColor"></span>
+                    }
+
+                </p>
+
+            </div>
+            <div id="backgroundColor" class="result">
+                <button id="red">Tryck för röd bakgrund</button>
+                <button id="green">Tryck för grön bakgrund</button>
+                <button id="blue">Tryck för blå bakgrund</button>
+            </div>
+            <br class="clear-fix">
+        </section>
+        <section class="subject">
+            <div class="explanation">
+                <h2>Ändra Placering</h2>
+                <p></p>
+
+            </div>
+            <hr>
+            <div class="code">
+
+
+
+            </div>
+            <div id="" class="result">
+                <button id="left">Vänster</button>
+                <button id="right">Höger</button>
+                <button id="center">Mitten</button>
+            </div>
+            <br class="clear-fix">
+        </section>
+
+        <section class="subject">
+            <div class="explanation">
+                <h2>Animering</h2>
+                <p>Med attributet @keyframes kan man animera i CSS.</p>
+
+            </div>
+            <hr>
+            <div class="code">
+                .animation {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                background: #0171bf;
+                position: relative;
+                -webkit-animation: mymove 5s infinite;
+                animation: mymove 5s infinite;
+                }
+                @keyframes mymove {
+                from {
+                left: 0px;
+                }
+                to {
+                left: 500px;
+                }
+                }
+
+
+            </div>
+            <div id="" class="result">
+                <div class="animation"></div>
+
+
+            </div>
+            <br class="clear-fix">
+        </section>
+
+    </div>
+    <footer>
+        <p>Copyright &copy; 2019 &bull; Frida, Ellinor, Anna, Niklas</p>
+    </footer>
+
+
+    <script src="css.js"></script>
+
+</body>
+
+</html>
